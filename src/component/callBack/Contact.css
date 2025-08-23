@@ -1,0 +1,136 @@
+.contact-container {
+  padding: 40px;
+  background-color: #f7faff;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.contact-container h1 {
+  text-align: center;
+  color: #0b2e4a;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.contact-banner {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-banner h2 {
+  font-size: 26px;
+  color: #088178;
+}
+
+.contact-banner marquee {
+  background-color: #e0f7f4;
+  color: #0b2e4a;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.team-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.profile-card {
+  background: white;
+  width: 240px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.profile-info {
+  padding: 15px;
+}
+
+.profile-info h2 {
+  color: #088178;
+  margin-bottom: 5px;
+}
+
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 30px;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-text h3 {
+  color: #0b2e4a;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.about-text ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  line-height: 1.8;
+  color: #444;
+}
+
+.contact-address {
+  margin-top: 15px;
+  color: #222;
+  font-weight: 500;
+}
+
+.about-img {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-img img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.floating-call-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.floating-call-button:hover {
+  background-color: #1DA851;
+}

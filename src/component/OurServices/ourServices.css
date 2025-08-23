@@ -1,0 +1,162 @@
+.services-container {
+    padding: 60px 30px;
+    background: linear-gradient(to bottom, #e2f0f9, #ffffff);
+    /* soft gradient background */
+}
+
+/* ===== Carousel Section ===== */
+.carousel-section {
+    position: relative;
+    margin-bottom: 60px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.carousel-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #680101;
+    text-align: center;
+    padding: 20px;
+    z-index: 2;
+    width: 90%;
+}
+
+.carousel-tag {
+    background-color: #b7c406;
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+}
+
+.carousel-heading {
+    font-size: 2.4rem;
+    margin: 12px 0;
+    font-weight: bold;
+    margin-bottom: 9rem;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+.carousel-marquee {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #000;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 12px;
+    white-space: nowrap;
+}
+
+/* ===== Zigzag Service Banners ===== */
+.banner-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.service-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    min-height: 400px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.service-banner.reverse {
+    flex-direction: row-reverse;
+}
+
+.service-banner img {
+    width: 500px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+}
+
+.service-banner .text {
+    max-width: 600px;
+    flex: 1;
+}
+
+.service-banner .text h3 {
+    font-size: 2rem;
+    margin-bottom: 14px;
+    color: #0a263c;
+}
+
+.service-banner .text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+}
+
+/* ===== Responsive Breakpoints ===== */
+@media (max-width: 992px) {
+    .carousel-image {
+        height: 350px;
+    }
+
+    .service-banner {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .service-banner img {
+        width: 90%;
+        height: auto;
+    }
+
+    .service-banner .text {
+        max-width: 90%;
+    }
+
+    .carousel-heading {
+        font-size: 1.8rem;
+    }
+
+    .carousel-marquee {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-tag {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    .carousel-heading {
+        font-size: 1.4rem;
+    }
+
+    .carousel-marquee {
+        font-size: 0.95rem;
+    }
+
+    .service-banner .text h3 {
+        font-size: 1.4rem;
+    }
+
+    .service-banner .text p {
+        font-size: 1rem;
+    }
+}

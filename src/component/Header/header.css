@@ -1,0 +1,165 @@
+/* ==== Header Base ==== */
+header {
+    animation: fadeInTop 0.8s ease-in-out;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* ==== Sticky Navigation Bar ==== */
+.sticky-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #800000;
+    /* Merun */
+    padding: 12px 24px;
+    color: white;
+    position: relative;
+}
+
+/* ==== Logo and Title ==== */
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-section img {
+    height: 40px;
+}
+
+.logo-section h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+
+/* ==== Navigation Menu ==== */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #ffd700;
+    border-bottom: 2px solid #ffd700;
+}
+
+/* ==== Contact Us Styled Button ==== */
+.contact-us-button {
+    background: linear-gradient(to right, #ffd700, #e5c100);
+    color: black;
+    padding: 8px 18px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 20px;
+}
+
+.contact-us-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+}
+
+/* ==== Hamburger Menu Icon ==== */
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+    margin-left: auto;
+}
+.menu-close {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+
+/* ==== Mobile Styles ==== */
+@media (max-width: 768px) {
+  .sticky-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #800000;
+    padding: 30px;
+    gap: 20px;
+    display: none;
+    z-index: 9999;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .nav-link {
+    font-size: 20px;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .contact-us-button {
+    display: none;
+  }
+}
+
+
+/* ==== Extra Small Devices ==== */
+@media (max-width: 480px) {
+    .logo-section h1 {
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .contact-us-button {
+        font-size: 13px;
+        padding: 6px 14px;
+    }
+}

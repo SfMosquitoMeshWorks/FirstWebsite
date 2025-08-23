@@ -1,0 +1,192 @@
+#page-header.about-header {
+
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+
+#page-header.about-header h2 {
+    color: #580303;
+    font-weight: 900;
+    margin-bottom: 100px;
+    padding-left: 18px;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+#about-head img {
+    padding: 60px 40px;
+    width: 50%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#about-head div {
+    flex: 1;
+    padding: 20px;
+}
+
+#about-head h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#about-head p,
+#about-head abbr {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+#about-app {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#about-app h1 {
+    font-size: 2rem;
+    color: #1e3a8a;
+}
+
+#about-app h1 a {
+    color: #e63946;
+    text-decoration: underline;
+}
+
+#about-app .video {
+    width: 70%;
+    height: auto;
+    margin: 20px auto 0 auto;
+}
+
+#about-app .video video {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#feature {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+}
+
+.fe-box {
+    width: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fe-box img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fe-box h5 {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #333;
+}
+
+#newsletter {
+    background-color: #1e3a8a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    flex-wrap: wrap;
+}
+
+.newstext h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.newstext p span {
+    color: #facc15;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.form input[type="text"] {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    width: 250px;
+}
+
+.form .normal {
+    background-color: #facc15;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form .normal:hover {
+    background-color: #eab308;
+}
+
+
+/* Full-screen section with background image */
+.about-header {
+    background-image: url("/public/About-us-banner.jpg");
+    /* Make sure this image is in the public folder */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 50vh;
+    /* Full screen height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* h2 styling */
+.about-header h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    animation: fadeInDown 1s ease;
+}
+
+/* Optional fade-in animation */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
