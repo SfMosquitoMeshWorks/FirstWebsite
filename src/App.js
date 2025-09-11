@@ -8,6 +8,9 @@ import CallButton from "./component/callBack/contactUS";
 import WhyChoose from "./component/WhyChoose/WhyChoose";
 import OurServices from "./component/OurServices/OurServices";
 import FloatingButtons from "./component/FloatingButtons/FloatingButtons";
+import Gallery from "./component/Gallery/Gallery";
+import Projects from "./component/Projects/Projects";
+
 
 
 
@@ -23,8 +26,8 @@ function App() {
         <Route path="/contact" element={<div><CallButton /></div>} />
         <Route path="/why-choose" element={<WhyChoose />} />
         <Route path="/services" element={<OurServices />} />
-
-
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/projects" element={<Projects />} />
         {/* Add other routes here */}
       </Routes>
       <Footer />

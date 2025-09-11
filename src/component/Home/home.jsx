@@ -15,26 +15,26 @@ const Home = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100 animated-carousel"
-                        src="Cover Page 1.jpg"
+                        src="Caurosel Side1.jpeg"
                         height="400px"
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First Slide Label</h3>
-                        <p>Some text about the first slide...</p>
+                        {/* <h3>First Slide Label</h3>
+                        <p>Some text about the first slide...</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item>
                     <img
                         className="d-block w-100 animated-carousel"
-                        src="img8.jpeg"
+                        src="Cover Page 1.jpg"
                         alt="Second slide"
                         height="400px"
                     />
                     <Carousel.Caption>
-                        <h3>Second Slide Label</h3>
-                        <p>Some text about the second slide...</p>
+                        {/* <h3>Second Slide Label</h3>
+                        <p>Some text about the second slide...</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
 
@@ -46,8 +46,8 @@ const Home = () => {
                         height="400px"
                     />
                     <Carousel.Caption>
-                        <h3>Third Slide Label</h3>
-                        <p>Some text about the third slide...</p>
+                        {/* <h3>Third Slide Label</h3>
+                        <p>Some text about the third slide...</p> */}
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
@@ -79,8 +79,8 @@ const Home = () => {
                 <div className="row justify-content-center mb-5">
                     <div className="col-lg-8">
                         <div className="video-wrapper">
-                            <video controls className="main-video" poster="mesh-logo.jpeg">
-                                <source src="/mesh.mp4" type="video/mp4" />
+                            <video controls className="main-video" poster="videos/thumb.jpeg">
+                                <source src="videos/Balcony Mesh.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
 
@@ -94,11 +94,11 @@ const Home = () => {
                 </div>
 
                 {/* Grid of 6 Smaller Videos */}
-                <div className="row">
+                {/* <div className="row">
                     <div className="col-md-4 mb-4">
                         <div className="video-wrapper small-video">
-                            <video controls className="responsive-video" poster="thumb1.jpg">
-                                <source src="videos/video1.mp4" type="video/mp4" />
+                            <video controls className="responsive-video" poster="videos/thumb1.jpeg">
+                                <source src="videos/Grill Mesh.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                             <div className="video-overlay">
@@ -109,8 +109,8 @@ const Home = () => {
 
                     <div className="col-md-4 mb-4">
                         <div className="video-wrapper small-video">
-                            <video controls className="responsive-video" poster="thumb2.jpg">
-                                <source src="videos/video2.mp4" type="video/mp4" />
+                            <video controls className="responsive-video" poster="videos/thumb_2.jpeg">
+                                <source src="videos/Magnetic Mesh.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                             <div className="video-overlay">
@@ -121,8 +121,8 @@ const Home = () => {
 
                     <div className="col-md-4 mb-4">
                         <div className="video-wrapper small-video">
-                            <video controls className="responsive-video" poster="thumb3.jpg">
-                                <source src="videos/video3.mp4" type="video/mp4" />
+                            <video controls className="responsive-video" poster="videos/thumb_3.jpeg">
+                                <source src="vvideos/SS Mesh.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                             <div className="video-overlay">
@@ -130,7 +130,50 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
+                
+                <div className="video-reel-container">
+  <div className="video-wrap">
+    <video controls className="reel-video" poster="videos/thumb1.jpeg">
+      <source src="videos/Grill Mesh.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <p className="video-caption">Sliding Mesh on Balcony — Perfect for Ventilation</p>
+  </div>
+
+  <div className="video-wrap">
+    <video controls className="reel-video" poster="videos/thumb_2.jpeg">
+      <source src="videos/Magnetic Mesh.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <p className="video-caption">Door Mesh in Kitchen Area — Sleek & Functional</p>
+  </div>
+
+  <div className="video-wrap">
+    <video controls className="reel-video" poster="videos/thumb_3.jpeg">
+      <source src="videos/SS Mesh.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <p className="video-caption">Premium Sliding Mesh Demo — Living Room Setup</p>
+  </div>
+
+  <div className="video-wrap">
+    <video controls className="reel-video" poster="videos/thumb_4.jpeg">
+      <source src="videos/Window Mesh.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <p className="video-caption">Window Mesh Installation — Smooth Operation</p>
+  </div>
+
+  <div className="video-wrap">
+    <video controls className="reel-video" poster="videos/thumb_5.jpeg">
+      <source src="videos/Balcony Mesh.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <p className="video-caption">Balcony Mesh Fittings — Stylish & Secure</p>
+  </div>
+</div>
+
 
             </div>
 

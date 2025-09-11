@@ -40,6 +40,55 @@
     transition: opacity 0.3s ease;
 }
 
+.video-reel-container {
+    display: flex;
+    overflow-x: auto;
+    /* horizontal scroll */
+    gap: 20px;
+    padding: 20px;
+    scroll-snap-type: x mandatory;
+    /* snap like reels */
+}
+
+.video-reel-container::-webkit-scrollbar {
+    display: none;
+    /* hide scrollbar for clean look */
+}
+
+.video-wrap {
+    flex: 0 0 auto;
+    width: 320px;
+    /* width of each reel */
+    height: 90vh;
+    /* almost full screen height */
+    background: #000;
+    border-radius: 12px;
+    overflow: hidden;
+    scroll-snap-align: center;
+    position: relative;
+}
+
+.reel-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* keeps video vertical fit */
+    border-radius: 12px;
+}
+
+.video-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+
 .video-wrapper:hover .video-overlay {
     opacity: 1;
 }

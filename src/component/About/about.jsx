@@ -12,7 +12,7 @@ const AboutPage = () => {
 
 
             <section id="about-head" className="section-p1">
-                <img src="About-Us.jpg" alt="not working" />
+                <img src="About Us.jpeg" alt="not working" />
                 <div>
                     <h2>Why Use Mosquito Mesh?</h2>
                     <p>

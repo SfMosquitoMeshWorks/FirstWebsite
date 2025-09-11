@@ -12,7 +12,7 @@ const Header = () => {
         {/* Logo and Title */}
         <div className="logo-section">
           <img src="images.jpg" alt="SF Mosquito Mesh Logo" className="h-10" />
-          <h1>SF MOSQUITO MESH</h1>
+          <h1>SF MOSQUITO MESH WORKS</h1>
         </div>
 
         {/* Hamburger Menu Icon */}

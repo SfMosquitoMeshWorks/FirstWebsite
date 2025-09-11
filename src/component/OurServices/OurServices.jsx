@@ -8,11 +8,11 @@ const serviceData = [
         description: "Protect your interiors with durable mosquito window mesh."
     },
 
-    {
-        title: "Invisible Grill",
-        image: "pngImges/InvisibleGrill.jpeg",
-        description: "Aesthetic color-coated mesh matching your decor."
-    },
+    // {
+    //     title: "Invisible Grill",
+    //     image: "pngImges/InvisibleGrill.jpeg",
+    //     description: "Aesthetic color-coated mesh matching your decor."
+    // },
     {
         title: "Sliding Mesh",
         image: "pngImges/SlidingMesh.jpeg",
@@ -20,7 +20,7 @@ const serviceData = [
     },
     {
         title: "Pleated Mesh",
-        image: "pngImges/SS-mesh.jpeg",
+        image: "Pleated Mesh.png",
         description: "Stylish pleated mesh that folds neatly when not in use."
     },
     {
@@ -30,7 +30,7 @@ const serviceData = [
     },
     {
         title: "Magnetic Mesh",
-        image: "img6.jpeg",
+        image: "img1.jpeg",
         description: "Quick-open magnetic mesh ideal for high-traffic areas."
     },
     {
@@ -40,12 +40,12 @@ const serviceData = [
     },
     {
         title: "Velcro Mesh",
-        image: "img8.jpeg",
+        image: "pngImges/Velcro Net.jpeg",
         description: "Economical and flexible mesh with velcro fitting."
     },
     {
         title: "SS Mesh",
-        image: "img9.jpeg",
+        image: "pngImges/SS-mesh.jpeg",
         description: "High-grade stainless steel mesh for premium protection."
     },
     {

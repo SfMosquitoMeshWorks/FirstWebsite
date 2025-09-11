@@ -9,7 +9,7 @@ const WhyChoose = () => {
             {/* Banner 1 */}
             <div className="banner-card">
                 <img
-                    src="/SF-services-img1.jpg"
+                    src="Protection Image.jpg"
                     alt="Mosquito Mesh Protection"
                     className="banner-image"
                 />
@@ -34,7 +34,7 @@ const WhyChoose = () => {
                     </p>
                 </div>
                 <img
-                    src="/mesh-quality.jpg"
+                    src="Quality Image.jpg"
                     alt="Mesh Quality"
                     className="banner-image"
                 />

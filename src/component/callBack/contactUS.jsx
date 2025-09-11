@@ -17,17 +17,17 @@ const Contact = () => {
       <div className="team-section">
         {[
           {
-            name: "Shiva G",
+            name: "Mohammed Anwar Baba",
             role: "Head of Department",
-            email: "shiva@example.com",
+            email:"mosquitomeshworks@gmail.com",
             phone: "+91 9121471387",
             img: "director.jpg"
           },
           {
             name: "Harsha Kalyan",
             role: "Chief Executive Officer",
-            email: "harsha@example.com",
-            phone: "+91 9121471387",
+            email: "harshakalyan01@gmail.com",
+            phone: "+91 7671941667",
             img: "CEO.jpg"
           }
         ].map((person, i) => (
